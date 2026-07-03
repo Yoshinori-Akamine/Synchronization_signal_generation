@@ -6,7 +6,7 @@ Pe-expert4のfpgaボードで実装することを想定している
 <p align="center">  
 <img src="sync_rect_module.svg">  
 </p>  
-<p align="center"><strong>このモジュールの構成　概念図</strong></p>
+<p align="center"><strong>モジュール構成　概念図</strong></p>
 
 ---
 ## 概要
@@ -15,6 +15,11 @@ Pe-expert4のfpgaボードで実装することを想定している
 - mode1：インバータのスイッチS1を基準に生成するゼロクロス信号FB
 - mode2：インバータのスイッチS2を基準に生成するゼロクロス信号FB
 - mode3：rect_nocontrol_flag = 1（出力信号）として、後段でこの出力を読むことでダイオード整流モードの利用を想定
+
+<p align="center">  
+<img src="mode_inout.svg">  
+</p>  
+<p align="center"><strong>各モードの出力</strong></p>
 
 
 ---
